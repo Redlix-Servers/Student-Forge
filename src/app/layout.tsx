@@ -18,6 +18,9 @@ import SmoothScroll from "@/components/SmoothScroll";
 export const metadata: Metadata = {
   title: "Student Forge | Empowering Future Leaders",
   description: "Official portal for Student Forge and Learn Grid initiative.",
+  icons: {
+    icon: "https://ik.imagekit.io/dypkhqxip/sf-next-logo?updatedAt=1772993490660",
+  },
 };
 
 export default function RootLayout({

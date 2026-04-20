@@ -47,7 +47,7 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center gap-4 lg:gap-8">
-          <div className="hidden lg:flex items-center gap-5 text-[11px] font-semibold uppercase tracking-wider text-[#1a3646]">
+          <div className="hidden lg:flex items-center gap-5 text-[13px] font-medium text-[#1a3646]">
             {navLinks.map((link) => (
               <Link key={link.name} href={link.href} className="hover:opacity-60 transition-opacity whitespace-nowrap">
                 {link.name}
