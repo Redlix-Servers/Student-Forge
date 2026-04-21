@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function AboutSection() {
   return (
-    <section className="w-full bg-white pt-24 md:pt-32 pb-12 px-4 md:px-8 flex justify-center">
+    <section className="w-full bg-white pt-24 md:pt-32 pb-16 px-4 md:px-8 flex justify-center">
       <div className="w-full max-w-[1600px] bg-[#2d414e] rounded-[32px] md:rounded-[48px] overflow-hidden flex flex-col lg:flex-row items-center p-8 md:p-12 lg:px-20 lg:py-6 gap-10 lg:gap-12">
         {/* Left Content */}
         <div className="flex-1 flex flex-col items-start text-white">
@@ -24,8 +24,7 @@ export default function AboutSection() {
               Learn More
             </Link>
             <Link 
-              href="https://forms.gle/P3jAJgdrLv4UjZt68" 
-              target="_blank"
+              href="https://platform.studentforge.in" 
               className="px-10 py-3 bg-[#fbb03b] text-[#1a3646] rounded-full text-sm font-normal hover:bg-[#e09e35] transition-all"
             >
               Get Started

@@ -8,7 +8,7 @@ export default function CollegePartnersSection() {
   ];
 
   return (
-    <section className="w-full bg-white py-20 flex flex-col items-center">
+    <section className="w-full bg-white py-12 flex flex-col items-center">
       <div className="w-full max-w-4xl text-center mb-12 px-6">
         <h2 className="text-3xl lg:text-4xl font-normal text-[#1a3646] tracking-tight mb-4">
           Institutions with MOU

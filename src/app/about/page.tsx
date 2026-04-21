@@ -11,8 +11,11 @@ export default function AboutPage() {
   return (
     <main className="flex-1 bg-white">
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 px-6 bg-[#fbb03b] border-b border-[#1a3646]/10">
+      <section className="relative pt-20 pb-20 px-6 bg-[#fbb03b] border-b border-[#1a3646]/10">
         <div className="relative z-10 w-full max-w-[1200px] mx-auto">
+          <div className="border border-[#1a3646]/20 text-[#1a3646] px-3 py-1 rounded-full text-[10px] font-medium uppercase tracking-widest mb-6 inline-block">
+            Our Foundation
+          </div>
           <h1 className="text-4xl lg:text-6xl font-normal text-[#1a3646] mb-6 tracking-tight leading-tight">
             Our Mission & <span className="text-white">Student Forge</span>.
           </h1>
@@ -23,27 +26,27 @@ export default function AboutPage() {
       </section>
 
       {/* Visual Identity Section */}
-      <section className="py-20 px-6 flex justify-center bg-gray-50 overflow-hidden">
+      <section className="py-24 px-6 flex justify-center bg-gray-50 overflow-hidden">
         <div className="w-full max-w-[1200px] grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="relative aspect-square lg:aspect-[4/5] rounded-[48px] overflow-hidden shadow-2xl border-8 border-white">
             <Image
-              src="https://thumbs.dreamstime.com/b/male-college-student-good-looking-african-sitting-steps-52806036.jpg"
-              alt="Innovation Lab"
+              src="/Users/rishirohankalapala/.gemini/antigravity/brain/6ece386d-fb22-4da4-bdf1-71b6abb496fa/about_vision_image_1776789119148.png"
+              alt="Student Forge Innovation Hub"
               fill
               className="object-cover"
             />
           </div>
-          <div className="flex flex-col gap-10">
-            <div className="flex flex-col gap-4">
-              <h2 className="text-3xl font-normal text-[#1a3646] tracking-tight underline decoration-[#fbb03b] decoration-4 underline-offset-8">Our Core Vision</h2>
-              <p className="text-base text-gray-500 leading-relaxed font-normal">
-                To create a global ecosystem where every student has the mentorship, tools, and community support needed to transition from being a learner to an industry pioneer. We envision a world where technical expertise is standardized and accessible.
+          <div className="flex flex-col gap-12">
+            <div className="flex flex-col gap-6">
+              <h2 className="text-4xl font-normal text-[#1a3646] tracking-tight decoration-[#fbb03b] decoration-4 underline-offset-8">Our Vision</h2>
+              <p className="text-lg text-gray-600 leading-relaxed font-normal">
+                To build the world's most accessible and high-impact ecosystem for student innovation. We believe that every student, regardless of their background or institution, deserves access to the tools, mentorship, and infrastructure required to transform their academic potential into a professional legacy.
               </p>
             </div>
-            <div className="flex flex-col gap-4">
-              <h2 className="text-3xl font-normal text-[#1a3646] tracking-tight underline decoration-[#fbb03b] decoration-4 underline-offset-8">Our Core Mission</h2>
-              <p className="text-base text-gray-500 leading-relaxed font-normal">
-                By working with academic institutions and industry leaders, Student Forge establishes high-impact nodes of innovation that provide verified assistance to students across all domains.
+            <div className="flex flex-col gap-6">
+              <h2 className="text-4xl font-normal text-[#1a3646] tracking-tight decoration-[#fbb03b] decoration-4 underline-offset-8">Our Mission</h2>
+              <p className="text-lg text-gray-600 leading-relaxed font-normal">
+                By establishing strategic 'Nodes' across national universities, Student Forge provides a standardized path for technical excellence. We bridge the gap between classroom learning and industry reality through immersive bootcamps, direct mentorship, and project-based incubation.
               </p>
             </div>
           </div>

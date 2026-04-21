@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Footer from "@/components/Footer";
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Business Solutions | Partner with Student Forge',
@@ -25,6 +26,12 @@ export default function BusinessPage() {
       <section className="py-24 px-6 flex justify-center bg-gray-50 overflow-hidden">
         <div className="w-full max-w-[1200px] grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="relative aspect-square lg:aspect-[5/4] rounded-[48px] overflow-hidden shadow-2xl border-8 border-white">
+            <Image 
+              src="/Users/rishirohankalapala/.gemini/antigravity/brain/6ece386d-fb22-4da4-bdf1-71b6abb496fa/corporate_solutions_image_1776789696864.png"
+              alt="Corporate Partnership"
+              fill
+              className="object-cover"
+            />
           </div>
           <div className="flex flex-col gap-10">
             <div className="p-10 bg-white border border-gray-100 rounded-[40px] shadow-sm hover:shadow-xl transition-all">

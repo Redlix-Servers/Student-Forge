@@ -13,8 +13,7 @@ export default function CTASection() {
         </p>
         <div className="flex flex-col sm:flex-row items-center gap-6">
           <Link 
-            href="https://forms.gle/P3jAJgdrLv4UjZt68" 
-            target="_blank"
+            href="https://platform.studentforge.in" 
             className="px-12 py-5 bg-[#1a3646] text-white rounded-full text-sm font-normal hover:bg-[#2d414e] transition-all shadow-xl hover:scale-105"
           >
             Get Started Now

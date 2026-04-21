@@ -31,7 +31,7 @@ export default function Home() {
       <PartnersSection />
       <UpdateSection />
       <ImpactSection />
-      <CollegePartnersSection />
+
       <QuoteSection />
       <TestimonialsSection />
       <CTASection />

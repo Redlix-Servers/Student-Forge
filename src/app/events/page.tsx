@@ -26,8 +26,11 @@ export default function EventsPage() {
   return (
     <main className="flex-1 bg-white">
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 px-6 bg-[#fbb03b] border-b border-[#1a3646]/10">
+      <section className="relative pt-20 pb-20 px-6 bg-[#fbb03b] border-b border-[#1a3646]/10">
         <div className="relative z-10 w-full max-w-[1200px] mx-auto">
+          <div className="border border-[#1a3646]/20 text-[#1a3646] px-3 py-1 rounded-full text-[10px] font-medium uppercase tracking-widest mb-6 inline-block">
+            National Impact
+          </div>
           <h1 className="text-4xl lg:text-6xl font-normal text-[#1a3646] mb-6 tracking-tight leading-tight">
             Events, Summits & <span className="text-white">Student Forge Work</span>.
           </h1>
@@ -62,8 +65,7 @@ export default function EventsPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mt-4">
                 <Link 
-                  href="https://forms.gle/P3jAJgdrLv4UjZt68" 
-                  target="_blank"
+                  href="https://platform.studentforge.in" 
                   className="px-10 py-5 bg-[#fbb03b] text-[#1a3646] rounded-full font-bold text-base shadow-lg hover:scale-105 transition-transform text-center"
                 >
                   Stay Notified
@@ -107,12 +109,31 @@ export default function EventsPage() {
               { title: "Technical Hackathons", desc: "Intensive 48-hour sprints where students build, break, and scale real-world solutions." },
               { title: "Placement Bootcamps", desc: "Standardized readiness programs focused on technical evaluation and interview excellence." }
             ].map((event, i) => (
-              <div key={i} className="p-10 bg-gray-50 border border-gray-100 rounded-[40px] shadow-sm">
+              <div key={i} className="p-10 bg-gray-50 border border-gray-100 rounded-[40px] shadow-sm hover:border-[#fbb03b]/30 transition-all">
                 <h3 className="text-xl font-bold text-[#1a3646] mb-4">{event.title}</h3>
                 <p className="text-sm text-gray-500 leading-relaxed">{event.desc}</p>
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Host an Event CTA */}
+      <section className="py-24 px-6 flex justify-center bg-[#fbb03b]/5">
+        <div className="w-full max-w-[1200px] bg-white rounded-[64px] border border-gray-100 p-12 md:p-20 flex flex-col md:flex-row items-center justify-between gap-12 shadow-xl">
+          <div className="flex flex-col gap-6 max-w-xl">
+            <span className="text-[10px] font-bold uppercase tracking-widest text-[#fbb03b]">Bring Forge to your Campus</span>
+            <h2 className="text-3xl lg:text-5xl font-normal text-[#1a3646] tracking-tight">Ready to Host an Event?</h2>
+            <p className="text-lg text-gray-500 leading-relaxed">
+              Partner with Student Forge to bring high-impact technical bootcamps and summits to your institution. Empower your students with industry-tier exposure.
+            </p>
+          </div>
+          <Link 
+            href="https://platform.studentforge.in" 
+            className="px-12 py-6 bg-[#1a3646] text-white rounded-full font-bold text-lg hover:scale-105 transition-all shadow-2xl whitespace-nowrap"
+          >
+            Start Hosting
+          </Link>
         </div>
       </section>
 

@@ -25,7 +25,7 @@ function Counter({ end, suffix = "", duration = 2000 }: { end: number, suffix?: 
 
 export default function ImpactSection() {
   return (
-    <section className="w-full bg-white py-12 px-8 flex flex-col items-center">
+    <section className="w-full bg-white py-16 px-8 flex flex-col items-center">
       {/* Header */}
       <div className="flex flex-col items-center text-center mb-12 max-w-4xl">
         <div className="bg-[#8ecfcb] text-[#1a3646] px-6 py-1 rounded-md text-[10px] font-normal mb-6 uppercase tracking-wider">
@@ -44,11 +44,11 @@ export default function ImpactSection() {
         {/* Row 1, Box 1 - Orange Metric */}
         <div className="lg:col-span-1 bg-[#fbb03b] rounded-[32px] p-10 flex flex-col items-start justify-start text-[#1a3646]">
           <span className="text-7xl font-normal mb-8">
-            <Counter end={500} suffix="+" />
+            <Counter end={1500} suffix="+" />
           </span>
           <h3 className="text-xl font-normal mb-4">Students Reached Online</h3>
           <p className="text-sm font-normal opacity-80 leading-relaxed">
-            In 2024, our online initiatives reached over 700 individuals with precise, accessible, and compelling information.
+            In 2025, our online initiatives reached over 1500 individuals with precise, accessible, and compelling information.
           </p>
         </div>
 
@@ -69,7 +69,7 @@ export default function ImpactSection() {
           </span>
           <h3 className="text-xl font-normal mb-4">Mentorship Sessions</h3>
           <p className="text-sm font-normal opacity-80 leading-relaxed">
-            In 2024, Student Forge led over 30 in-person and virtual mentorship programs covering key topics.
+            In 2025, Student Forge led over 30 in-person and virtual mentorship programs covering key topics.
           </p>
         </div>
 
@@ -87,11 +87,11 @@ export default function ImpactSection() {
         {/* Row 2, Box 5 - Dark Slate Metric */}
         <div className="bg-[#2d414e] rounded-[32px] p-10 flex flex-col items-start justify-start text-white">
           <span className="text-7xl font-normal mb-8">
-            <Counter end={3} suffix="+" />
+            <Counter end={100} suffix="+" />
           </span>
-          <h3 className="text-xl font-normal mb-4">Partner Universities</h3>
+          <h3 className="text-xl font-normal mb-4">Internships</h3>
           <p className="text-sm font-normal opacity-80 leading-relaxed">
-            Global collaboration with 3+ accredited universities, offering unique exchange and research opportunities.
+            In 2025, Student Forge provided 100+ internship opportunities to students across various technical and business domains.
           </p>
         </div>
       </div>

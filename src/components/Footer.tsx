@@ -17,7 +17,7 @@ export default function Footer() {
             <div className="h-8 w-[1px] bg-gray-300" />
             <img
               src="https://ik.imagekit.io/dypkhqxip/learngrid?updatedAt=1775552006855"
-              alt="Learn Grid Logo"
+              alt="Student platform Logo"
               className="h-8 lg:h-10"
             />
           </div>

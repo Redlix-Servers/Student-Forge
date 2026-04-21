@@ -16,12 +16,12 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: 'About Us', href: '/about' },
+    { name: 'About', href: '/about' },
     { name: 'Startup', href: '/startup' },
-    { name: 'About Institutions', href: '/institutions' },
+    { name: 'Universities / Institutions', href: '/institutions' },
+    { name: 'Corporate', href: '/business' },
     { name: 'Events', href: '/events' },
-    { name: 'Business', href: '/business' },
-    { name: 'Contact', href: '/contact' },
+    { name: 'Store', href: 'https://store.studentforge.in' },
   ];
 
   return (
@@ -57,8 +57,7 @@ export default function Navbar() {
 
           <div className="flex items-center gap-4">
             <Link 
-              href="https://forms.gle/P3jAJgdrLv4UjZt68" 
-              target="_blank"
+              href="https://platform.studentforge.in" 
               className={`
                 rounded-full text-[10px] font-bold uppercase tracking-wider transition-all whitespace-nowrap
                 ${scrolled 
